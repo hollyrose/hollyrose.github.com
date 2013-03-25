@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Leckerli+One);
+@import url(http://fonts.googleapis.com/css?family=Patrick+Hand+SC);
 
 body {
 	background-color: #B0B6C2
@@ -14,19 +15,26 @@ body {
 #headtext {
 	font-family: 'Leckerli One', "Brush Script MT", cursive;
 	font-size: 35px;
-	color: FA7202;
+	color: #D9FAFF;
 	padding: 5px
 	}
-	
+.sideButton {
+	background-color: #3c4543;
+	height: 50px;
+	width: 150px;
+	border-radius: 15px;
+}
+
 h1 {
 	color: #F2F5FA;
-	text-align: center
+	text-align: center;
+	font-family: 'Patrick Hand SC', Garamond
 	}
 p {
 	color: #F2F5FA;
-	font-family: Gotham, Futura, Bodoni, Tahoma;
+	font-family: 'Patrick Hand SC', Garamond;
 	margin: auto;
-	padding: 3px
+	padding: 6px
 	}
 
 #footer {
