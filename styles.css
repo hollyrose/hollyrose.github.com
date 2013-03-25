@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Leckerli+One);
+
+body {
+	background-color: #B0B6C2
+	}
+#header {
+	background-color: #3c4543;
+	height: 75px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	clear: both;
+	position: relative;
+}
+#headtext {
+	font-family: 'Leckerli One', "Brush Script MT", cursive;
+	font-size: 35px;
+	color: FA7202;
+	padding: 5px
+	}
+	
+h1 {
+	color: #F2F5FA;
+	text-align: center
+	}
+p {
+	color: #F2F5FA;
+	font-family: Gotham, Futura, Bodoni, Tahoma;
+	margin: auto;
+	padding: 3px
+	}
+
+#footer {
+	clear: both;
+	position: relative;
+	bottom: -20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 75px;
+	background-color: #3c4543;
+}
