@@ -24,6 +24,17 @@ body {
 	width: 150px;
 	border-radius: 15px;
 }
+#sideMenu {
+	position:relative;
+	margin-right: 80px
+
+}
+.mainBit {
+	float: right;
+    position: relative;
+    text-align: left;
+    width: 80%;
+}
 
 h1 {
 	color: #F2F5FA;
@@ -33,6 +44,7 @@ h1 {
 p {
 	color: #F2F5FA;
 	font-family: 'Patrick Hand SC', Garamond;
+	font-size: 21px;
 	margin: auto;
 	padding: 6px
 	}
