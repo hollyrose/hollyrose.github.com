@@ -3,7 +3,14 @@
 
 body {
 	background-color: #B0B6C2
-	}
+	} 
+
+/*
+* {
+	font-family: 'Patrick Hand SC', Garamond;
+}
+*/
+
 #header {
 	background-color: #3c4543;
 	height: 75px;
@@ -30,10 +37,10 @@ body {
 }
 
 #birdList {
-	display: none;
+	/*display: none;*/
 	color: #F2F5FA;
-	text-align: center;
 	font-family: 'Patrick Hand SC', Garamond;
+	font-size: 20px;
 }
 
 
