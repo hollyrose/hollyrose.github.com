@@ -37,7 +37,7 @@ body {
 }
 
 #birdList {
-	/*display: none;*/
+	display: none;
 	color: #F2F5FA;
 	font-family: 'Patrick Hand SC', Garamond;
 	font-size: 20px;
