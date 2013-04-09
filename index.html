@@ -6,38 +6,44 @@
 		<title>Hello World</title>
 	</head>
 	<body>
-		<div id ="header">
-		<!--This is for the header-->.
-			<div id ="headtext">Holly's Corner</div>
-		</div>
-		
-		<div><h1>This is my webpage.</h1>
-		
-		<!--This is where the basic bio goes-->
-		<div id="mainText" class="mainBit">
-			<p>My name is Holly and I live in the UK.</p>
-			<p>I'm learning to code and have looked at HTML, CSS, jQuery and JavaScript thusfar.</p>
-			<p>I like drawing and will eventually use my artistic talents to decorate my coding projects, including this webpage = )</p>
-		</div>
-		
-		<!--This is where the bird list goes-->
-		<div id="birdList" class="mainBit">
-			<h2>These are the birds that I have seen in our garden:</h2>
-			<ul>
-				<li>Wren <img class="birdPic" src="wren bird list.png" alt="Wrens are pretty little birds"></li>
-				<li>Starling</li>
-				<li>Robin</li>
-			</ul>
-		</div>
-		
-		<!-- Sidebar is here -->
-		<div id="sideMenu">
-			<div class="sideButton">About me</div>
-			<div class="sideButton" id="birds">Bird List</div>
-			<div class="sideButton">Dog List</div>
-			<div class="sideButton">Working Life</div>
-		</div>
-
-		<div id ="footer"></div>
+		<header id="header">
+		<!--This is for the header-->
+			<div id="headtext">Holly's Corner</div>
+		</header>
+		<section>
+			
+			<header>
+				<div><h1>This is my webpage.</h1></div>
+			</header>
+			
+			<!--This is where the basic bio goes-->
+			
+			<section id="mainText" class="mainBit">
+				<p>My name is Holly and I live in the UK.</p>
+				<p>I'm learning to code and have looked at HTML, CSS, jQuery and JavaScript thusfar.</p>
+				<p>I like drawing and will eventually use my artistic talents to decorate my coding projects, including this webpage = )</p>
+			</section>
+			
+			<!--This is where the bird list goes-->
+			<section id="birdList" class="mainBit">
+				<h2>These are the birds that I have seen in our garden:</h2>
+				<ul>
+					<li>Wren <img class="birdPic" src="wren bird list.png" alt="Wrens are pretty little birds"></li>
+					<li>Starling</li>
+					<li>Robin</li>
+				</ul>
+			</section>
+			
+			<!-- Sidebar is here -->
+			<nav>
+				<ul>
+					<li class="sideButton">About me</li>
+					<li class="sideButton" id="birds">Bird List</li>
+					<li class="sideButton">Dog List</li>
+					<li class="sideButton">Working Life</li>
+				</ul>
+			</nav>
+		</section>
+		<footer></footer>
 	</body>
 </html>
