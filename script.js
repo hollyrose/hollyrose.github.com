@@ -3,4 +3,8 @@ $(document).ready(function() {
 		event.preventDefault();
 		$('#birdList').toggle("slow");
 	});
+		$('#dogs').on('click', function (event) {
+		event.preventDefault();
+		$('#doggies').toggle("slow");
+	});
 });
