@@ -1,10 +1,20 @@
 @import url(http://fonts.googleapis.com/css?family=Leckerli+One);
-@import url(http://fonts.googleapis.com/css?family=Patrick+Hand+SC);
 
 body {
 	background-color: #B0B6C2;
-	font-family: 'Patrick Hand SC', Garamond;
+	font-family:  Tahoma, verdana, Garamond;
 	} 
+	
+@font-face {
+    font-family: 'FFFTusjBold';
+    src: url('fonts/FFF_Tusj-webfont.eot');
+    src: url('fonts/FFF_Tusj-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FFF_Tusj-webfont.woff') format('woff'),
+         url('fonts/FFF_Tusj-webfont.ttf') format('truetype'),
+         url('fonts/FFF_Tusj-webfont.svg#FFFTusjBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 #header {
 	background-color: #3c4543;
@@ -20,6 +30,10 @@ body {
 	font-size: 35px;
 	color: #D9FAFF;
 	padding: 5px;
+}
+
+#headroom {
+	padding: 10px;
 }
 
 ul {
@@ -42,7 +56,6 @@ ul {
 	opacity:0.75;
 }
 
-
 #birdList , #doggies {
 	display: none;
 	color: #F2F5FA;
@@ -54,6 +67,7 @@ ul {
 	margin-right: 80px
 
 }
+
 .mainBit {
 	float: right;
     position: relative;
@@ -62,13 +76,16 @@ ul {
 }
 
 h1 {
+	font-family: 'FFFTusjBold';
 	color: #F2F5FA;
 	text-align: center;
 	margin-bottom: 20px;
+	font-size: 30px;
 	}
+
 p {
 	color: #F2F5FA;
-	font-size: 21px;
+	font-size: 16px;
 	margin: auto;
 	padding: 6px
 	}
