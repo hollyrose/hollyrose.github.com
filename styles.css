@@ -2,7 +2,7 @@
 
 body {
 	background-color: #B0B6C2;
-	font-family:  Tahoma, verdana, Garamond;
+	font-family:  verdana, Garamond;
 	} 
 	
 @font-face {
@@ -84,11 +84,14 @@ h1 {
 	}
 
 p {
-	color: #F2F5FA;
-	font-size: 16px;
 	margin: auto;
 	padding: 6px
 	}
+	
+li, p {
+	font-size: 16px;
+	color: #F2F5FA;
+}
 
 #footer {
 	clear: both;
@@ -102,4 +105,14 @@ p {
 
 .highlighted {
 	
+}
+
+.birdPic {
+  height: 125px;
+  width: auto;
+}
+ 
+.birdpic:hover {
+	height: 200px;
+	width: auto;
 }
