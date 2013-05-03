@@ -1,11 +1,19 @@
 @import url(http://fonts.googleapis.com/css?family=Leckerli+One);
 
 body {
+
 	background-image: linear-gradient(bottom, rgb(151,184,180) 0%, rgb(63,69,68) 100%);
 	background-image: -o-linear-gradient(bottom, rgb(151,184,180) 0%, rgb(63,69,68) 100%);
 	background-image: -moz-linear-gradient(bottom, rgb(151,184,180) 0%, rgb(63,69,68) 100%);
-	background-image: -webkit-linear-gradient(bottom, rgb(151,184,180) 0%, rgb(63,69,68) 100%);
 	background-image: -ms-linear-gradient(bottom, rgb(151,184,180) 0%, rgb(63,69,68) 100%);
+	background-image: url(background.png), -webkit-linear-gradient(bottom, rgb(151,184,180) 0%, rgb(63,69,68) 100%);
+	background-repeat: no-repeat;
+	background-position: center center;
+		
+	
+	/*background:  no-repeat center center fixed;	
+	background-color: transparent;
+	border: none;*/
 	font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	} 
 	
