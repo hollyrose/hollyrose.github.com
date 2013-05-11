@@ -1,10 +1,10 @@
 $(document).ready(function() {
 	$('#birds').on('click', function (event) {
-		event.preventDefault();
-		$('#birdList').toggle("slow");
+		event.stopPropagation();
+		$('#birdList').toggle();
 	});
 		$('#dogs').on('click', function (event) {
-		event.preventDefault();
-		$('#doggies').toggle("slow");
+		event.stopPropagation();
+		$('#doggies').toggle();
 	});
 });
