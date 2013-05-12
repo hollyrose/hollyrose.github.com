@@ -126,10 +126,6 @@ li, p {
 	background-color: #3c4543;
 }
 
-.highlighted {
-	
-}
-
 .birdPic {
   height: 125px;
   width: auto;
@@ -138,4 +134,8 @@ li, p {
 .birdpic:hover {
 	height: 200px;
 	width: auto;
+}
+
+.active {
+	 -webkit-filter: invert(20%);
 }
